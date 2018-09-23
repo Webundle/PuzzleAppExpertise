@@ -1,0 +1,4 @@
+# Partner
+app_expertise_partner_list:
+    path:     /list
+    defaults: { _controller: 'PuzzleAppExpertiseBundle:Partner:list' }

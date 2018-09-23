@@ -1,0 +1,8 @@
+# Faq
+app_expertise_faq_list:
+    path:     /list
+    defaults: { _controller: 'PuzzleAppExpertiseBundle:Faq:list' }
+
+app_expertise_faq_show:
+    path:     /{id}
+    defaults: { _controller: 'PuzzleAppExpertiseBundle:Faq:show' }

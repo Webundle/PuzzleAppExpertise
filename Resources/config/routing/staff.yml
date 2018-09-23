@@ -1,0 +1,8 @@
+# Staff
+app_expertise_staff_list:
+    path:     /list
+    defaults: { _controller: 'PuzzleAppExpertiseBundle:Staff:list' }
+
+app_expertise_staff_show:
+    path:     /{id}
+    defaults: { _controller: 'PuzzleAppExpertiseBundle:Staff:show' }

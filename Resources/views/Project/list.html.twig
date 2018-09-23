@@ -1,0 +1,5 @@
+{% if projects is not empty %}
+    {% for project in projects %}
+     	{{ dump(project) }}<br/>
+    {% endfor %}
+{% endif %}

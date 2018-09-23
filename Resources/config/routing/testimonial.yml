@@ -1,0 +1,8 @@
+# Testimonial
+app_expertise_testimonial_list:
+    path:     /list
+    defaults: { _controller: 'PuzzleAppExpertiseBundle:Testimonial:list' }
+ 
+app_expertise_testimonial_show:
+    path:     /{id}
+    defaults: { _controller: 'PuzzleAppExpertiseBundle:Testimonial:show' }

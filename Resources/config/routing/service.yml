@@ -1,0 +1,8 @@
+# Service
+app_expertise_service_list:
+    path:     /list
+    defaults: { _controller: 'PuzzleAppExpertiseBundle:Service:list' }
+
+app_expertise_service_show:
+    path:     /{id}
+    defaults: { _controller: 'PuzzleAppExpertiseBundle:Service:show' }

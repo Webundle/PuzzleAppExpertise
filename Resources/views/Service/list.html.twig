@@ -1,0 +1,5 @@
+{% if services is not empty %}
+    {% for service in services %}
+     	{{ dump(service) }}<br/>
+    {% endfor %}
+{% endif %}

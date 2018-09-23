@@ -1,0 +1,5 @@
+{% if faqs is not empty %}
+    {% for faq in faqs %}
+     	{{ dump(faq) }}<br/>
+    {% endfor %}
+{% endif %}
