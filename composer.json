@@ -28,11 +28,10 @@
 		"webundle/puzzle-admin-expertise" : "^1.0"
 	},
 	"autoload" : {
-		"psr-0" : {
-			"Webundle\\Puzzle\\App\\ExpertiseBundle" : ""
+		"psr-4" : {
+			"Puzzle\\App\\ExpertiseBundle\\" : ""
 		}
 	},
-	"target-dir" : "Webundle/Puzzle/App/ExpertiseBundle",
 	"extra" : {
 		"branch-alias" : {
 			"dev-master" : "1.0-dev"
